@@ -3,7 +3,7 @@ package com.driver;
 public class Main {
     public static void main(String[] args){
         RWOnly obj = new RWOnly();
-        obj.SetName("Nitesh");
+        obj.setName("Nitesh");
         System.out.println(obj.getName());
     }
 }
